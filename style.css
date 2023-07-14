@@ -14,21 +14,27 @@ section{
     align-items:center;
     padding-left: 500px;
 }
-.section-0 h2{
+h2{
     font-family:'lora',sans-serif;
     align-items: start;
 } 
+h6{
+    color: rgb(180, 175, 175);
+}
 
 .section-1 .card-group{
     display: flex;
     flex-direction: row;
+    margin: 30px;
 }
+
 .section-1 .card-group img{
-    width: 560px;
-    height: 360px;
+    width: 545px;
+    height: 350px;
 }
+
 .section-1 .card-group .text{
-    width: 520px;
+    width: 545px;
     padding-left: 15px;
 }
 
@@ -36,21 +42,19 @@ section{
     display: flex;
     flex-direction: row;
 }
+.section-2 .card-group .card{
+    margin:30px;
+}
 .section-2 .card-group img{
     height: 300px;
 }
-
-.section-3 .card-group img{
-    height: 300px;
-}
 .section-3 .card-group .card{
-    max-height: 700px;
+    margin: 20px;
 }
-.section-3 .card-group .card h6{
-    width: 370px;
-    background-color: rgb(49, 137, 238); 
-    border: 1px;
-    border-radius: 3px;
-    padding: 20px 20px 50px 20px;
-    margin-bottom: 300px;
+.section-3 .card-group .card blockquote{
+ border: none;
+ background-color: rgb(24, 128, 226);
+ padding: 10px;
+ border-radius: 10px;
 }
+
